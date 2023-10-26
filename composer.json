@@ -1,0 +1,28 @@
+{
+    "name": "devertix/laravel-user-helpers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devertix\\LaravelUserHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Norbert Mozsar",
+            "email": "norbert.mozsar@devertix.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devertix\\LaravelUserHelpers\\LaravelUserHelpersHelpersProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require": {
+        "laravel/framework": "10.*"
+    }
+
+}
