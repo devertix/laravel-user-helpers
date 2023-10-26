@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Devertix\\LaravelUserHelpers\\LaravelUserHelpersHelpersProvider"
+                "Devertix\\LaravelUserHelpers\\LaravelUserHelpersProvider"
             ],
             "aliases": {}
         }
